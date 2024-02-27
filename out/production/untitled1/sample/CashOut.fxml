@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="550.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.CashOut">
+   <children>
+      <BorderPane layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="400.0">
+         <left>
+            <AnchorPane prefHeight="550.0" prefWidth="400.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label layoutX="126.0" layoutY="14.0" prefHeight="53.0" prefWidth="149.0" text="Cash Out" textFill="#d71010">
+                     <font>
+                        <Font size="36.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="30.0" layoutY="118.0" prefHeight="53.0" prefWidth="42.0" text="To">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="30.0" layoutY="171.0" prefHeight="53.0" prefWidth="203.0" text="Mobile Number :" textFill="#ab4e4e">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="30.0" layoutY="224.0" prefHeight="53.0" prefWidth="203.0" text="Amount :" textFill="#ab4e4e">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="30.0" layoutY="277.0" prefHeight="53.0" prefWidth="203.0" text="Password :" textFill="#ab4e4e">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="30.0" layoutY="330.0" prefHeight="53.0" prefWidth="203.0" text="Available Balance :" textFill="#ab4e4e">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField layoutX="200.0" layoutY="185.0" promptText="Enter Mobile Number" />
+                  <TextField layoutX="200.0" layoutY="238.0" promptText="৳0" />
+                  <TextField layoutX="200.0" layoutY="291.0" promptText="Self Password" />
+                  <Button layoutX="250.0" layoutY="450.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="99.0" text="Send" />
+                  <Button fx:id="Cancel" layoutX="30.0" layoutY="450.0" mnemonicParsing="false" onAction="#CancelOnAction" prefHeight="25.0" prefWidth="99.0" text="Cancel" />
+                  <Label layoutX="200.0" layoutY="330.0" prefHeight="53.0" prefWidth="182.0" text="Waiting for taka" textFill="#ab4e4e">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </left>
+      </BorderPane>
+   </children>
+</AnchorPane>
